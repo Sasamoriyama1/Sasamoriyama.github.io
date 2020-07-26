@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+#horoscope {
+  text-align: center;
+  margin: 10px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);     
+  width: 700px;
+  background-color: #ea8a8a;
+  border: 3px double #685454;
+}
+
+#horoscope > h1 {
+  color: #630;
+  font-family: 'Monotype Corsiva','Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
+}
+
+#horoscope > h2 {
+  color: #630;
+  font-family: 'XANO明朝U32','XANO-mincho-U32','あくあＰフォント','aqua_pfont','ＭＳ 明朝','MS Mincho';
+}
+
+#horoscope > #output > h2 {
+  font-size: 70px;
+  font-family: 'XANO明朝U32','XANO-mincho-U32','あくあＰフォント','aqua_pfont','ＭＳ 明朝','MS Mincho';
+  margin: 0;
+  text-shadow: 0 -1px 0 #f2f2f2;
+}
+
+#horoscope > #output > p {
+  font-size: 15px;
+  font-family: serif;
+  margin: 0;
+}
+
+#horoscope > #output {
+  background-color: #685454;
+  color: #FFF;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+#horoscope > #btn {
+  background: #740;
+  border: 0;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: serif;
+  margin: 10px auto 20px auto;
+  padding: 5px 20px;
+
+}
+
+#horoscope > #btn:hover {
+  background: #960;
+}
+
+#horoscope > #btn:active {
+  background: #630;
+}
